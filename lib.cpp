@@ -1,6 +1,5 @@
 //
 // Created by Lorenzo Malatesta on 04/05/22.
-//
 
 #include "lib.h"
 
