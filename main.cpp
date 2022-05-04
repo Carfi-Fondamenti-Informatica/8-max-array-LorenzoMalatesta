@@ -12,8 +12,7 @@ int main() {
     for (int i=0; i<d; i++) {
         cin >> a[i];
     }
-    num_max = max (a, d);
-    cout << num_max;
+    cout << max (a, d);
     return 0;
 }
-//
+
