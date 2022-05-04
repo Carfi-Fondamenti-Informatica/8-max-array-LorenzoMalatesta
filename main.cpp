@@ -5,14 +5,15 @@ using namespace std;
 int main() {
     int d;
     cin >> d;
-    float a[d];
+    float a[d], num_max;
     for (int i=0; i<d; i++) {
         a[i]=0;
     }
     for (int i=0; i<d; i++) {
         cin >> a[i];
     }
-    cout << max (a, d);
+    num_max = max (a, d);
+    cout << num_max;
     return 0;
 }
 //
